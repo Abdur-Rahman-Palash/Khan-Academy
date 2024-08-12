@@ -39,3 +39,92 @@ body{
     gap: 50px;
     align-items: center;
 }
+.bar{
+    display: none;
+}
+.icon{
+    color: #1865F2;
+    display: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-around;
+}
+.banner-image img{
+    width: 500px;
+}
+.btn-1{
+    width: 170px;
+    border: 2px solid #1865F2;
+    background: #1865F2;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+.btn-2{
+    width: 170px;
+    border: 2px solid #1865F2;
+    background: #1865F2;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+.btn-3{
+    width: 170px;
+    border: 2px solid #1865F2;
+    background: #1865F2;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+/* responsive for mobile */
+@media screen and (max-width:576px) {
+    .nav-bar-left{
+        display: none;
+    }
+    .nav-bar-right{
+        display: none;
+    }
+    .nav-bar-middle{
+       margin-right: 200px;
+    }
+    .bar{
+       display: block;
+       margin-right: 10px;
+
+    }
+    .icon{
+        display: block;
+        margin-right: 10px;
+        
+     }
+     .banner{
+        flex-direction: column;
+     }
+     .buttons{
+        text-align: center;
+     }
+.btn-1{
+   width: 360px;
+}
+.btn-2{
+    display: none;
+}
+.btn-3{
+    display: none;
+}
+.banner-image img{
+    width: 280px;
+}
+.banner-texts{
+    text-align: center;
+}
+}
