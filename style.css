@@ -99,7 +99,7 @@ body{
 }
 .different-subject-1-title-1{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
 }
 .different-subject-1-title-1-img img{
