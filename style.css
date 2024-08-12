@@ -85,6 +85,32 @@ body{
     color: white;
     font-size: 1rem;
 }
+.different-subjects{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    background: #F5F5F5;
+    padding: 10px;
+}
+.different-subject-1-title-2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.different-subject-1-title-1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.different-subject-1-title-1-img img{
+    width: 40px;
+    border-radius: 50%;
+}
+.different-subject-1{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px) {
     .nav-bar-left{
