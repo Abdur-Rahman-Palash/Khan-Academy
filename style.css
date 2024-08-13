@@ -111,6 +111,66 @@ body{
     gap: 80px;
     align-items: center;
 }
+.Academy-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.Academy{
+    margin-top: 50px;
+}
+.Academy-text{
+    font-size: 2rem;
+    text-align: center;
+}
+.Differentiate-image img{
+width: 550px;
+}
+.Differentiate{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.anything{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.anything-image img{
+    width: 600px;
+}
+.ANJALI{
+    margin-top: 70px;
+    text-align: center;
+    background: #F5F5F5;
+    padding: 40px;
+}
+.ANJALI-image{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   justify-content: center;
+   margin-left: 350px;
+}
+.ANJALI-image-img img{
+    width: 100px;
+   
+}
+.deserves{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.deserves-image img{
+    width: 550px;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px) {
     .nav-bar-left{
