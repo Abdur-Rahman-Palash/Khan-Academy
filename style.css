@@ -149,6 +149,7 @@ width: 550px;
     text-align: center;
     background: #F5F5F5;
     padding: 40px;
+    font-size: 2rem;
 }
 .ANJALI-image{
     display: flex;
@@ -170,6 +171,168 @@ width: 550px;
 }
 .deserves-image img{
     width: 550px;
+}
+.today-btn-1 button{
+    font-size: 1.5rem;
+    width: 250px;
+}
+.today-btn-2 button{
+    font-size: 1.5rem;
+    width: 250px;
+}
+.today-btn-3 button{
+    font-size: 1.5rem;
+    width: 250px;
+}
+.today-btn-4 button{
+    font-size: 1.5rem;
+    width: 250px;
+}
+.today-btn-2{
+    margin-top: 15px;
+}
+.today-btn-3{
+    margin-top: 15px;
+}
+.today-btn-4{
+    margin-top: 10px;
+}
+.today{
+    background-image: url(./images/last_chance_collage@2x.png);
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 150px;
+    height: 400px;
+}
+.supporters{
+    margin-top: 100px;
+    background: #F5F5F5;
+}
+.supporters-card-1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+justify-content: center;
+}
+.supporters-card-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.supporters-card-1-1 img{
+    width: 170px;
+}
+.supporters-card-1-2 img{
+    width: 170px;
+}
+.supporters-card-1-3 img{
+    width: 170px;
+}
+.supporters-card-1-4 img{
+    width: 170px;
+}
+.supporters-card-2-1 img{
+    width: 170px;
+}
+.supporters-card-2-2 img{
+    width: 170px;
+}
+.supporters-card-2-3 img{
+    width: 170px;
+}
+.supporters-card-2-4 img{
+    width: 170px;
+}
+.supporters{
+    text-align: center;
+    padding: 40px;
+}
+.footer{
+    background: #0B2149;
+    margin-top: 80px;
+    color: white;
+    padding: 10px;
+}
+.footer p{
+    font-size: 13px;
+}
+.footer-start{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-end{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.footer-start-1-text-2{
+    margin-top: 150px;
+    display: flex;
+    gap: 20px;
+}
+.footer-start-1-text-2-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-start-1-text-2-1-2{
+    display: flex;
+    gap: 20px;
+}
+.footer-start-1-text-2-1-2-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-start-1-text-2-1-2-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-start-1-text-2-1-2-3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-start-1-text-2-1-2-4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-start-1-texts{
+    display: flex;
+}
+.footer-start-3{
+    margin-bottom: 150px;
+}
+.footer-start-1{
+    margin-bottom: 150px;
+}
+.footer-start-3-icon-2 img{
+    width: 120px;
+}
+.footer-end-text{
+    display: flex;
+    gap: 20px;
+}
+.footer-end-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #8295A1;
+    font-size: 1.5rem;
+
+}
+.footer-start-1-text-1{
+    color: #8295A1;
 }
 /* responsive for mobile */
 @media screen and (max-width:576px) {
